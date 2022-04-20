@@ -1,0 +1,84 @@
+ <!doctype html>
+<html>
+            <head>
+                <meta charset="utf-8">
+            <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/images/iconsite.jpg"/>
+         </head>
+    <title>Calculator</title>
+    <body>
+    <div class="intro">
+    <div class="container">
+    <div class="intro__inner">
+    <div class="header__logo">Calculator</div>
+    <div class="row">
+      
+           <!-- Скрипт--> 
+        <script type='text/javascript'>
+    function dl() {
+      var b = document.getElementsByTagName("button");
+      for(var i=0; i<b.length; i++) {
+        b[i].onclick = ind;
+      }
+    }
+    function ind() {
+      var t = document.getElementById("st");
+      switch( this.id ) {
+        case '=':
+          try {
+            eval( 'var __res = ('+t.value+');' );
+            t.value = __res;
+          } catch(e) {
+            alert(e)
+          }
+          break;        
+        case 'c':  
+            t.value = '';
+            break;
+        default:
+            t.value = t.value + this.id;
+      }
+        
+    }
+    window.onload = dl;
+    </script>
+            
+            
+     <!-- Кнопки -->
+ 
+    <form>
+        <input id="st" type="text" class="input__text"><br><br>
+    </form>
+    <table>
+        <tr>
+            <td><button class="btn" id="1" ><img src="assets/images/icons/n1.jpg"/></button></td>
+            <td><button class="btn" id="2"><img src="assets/images/icons/n2.jpg"/></button></td>
+            <td><button class="btn" id="3"><img src="assets/images/icons/n3.jpg"/></button></td>
+            <td><button class="btn1" id="+"><img src="assets/images/icons/1.jpg"/></button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" id="4"><img src="assets/images/icons/n4.jpg"/></button></td>
+            <td><button class="btn" id="5"><img src="assets/images/icons/n5.jpg"/></button></td>
+            <td><button class="btn" id="6"><img src="assets/images/icons/n6.jpg"/></button></td>
+            <td><button class="btn1" id="-"><img src="assets/images/icons/2.jpg"/></button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" id="7"><img src="assets/images/icons/n7.jpg"/></button></td>
+            <td><button class="btn" id="8"><img src="assets/images/icons/n8.jpg"/></button></td>
+            <td><button class="btn"id="9"><img src="assets/images/icons/n9.jpg"/></button></td>
+            <td><button class="btn1"id="*"><img src="assets/images/icons/3.jpg"/></button></td>
+        </tr>
+        <tr>
+            <td><button class="btn3"id="c"><img src="assets/images/icons/6.jpg"/></button></td>
+            <td><button class="btn"id="0"><img src="assets/images/icons/n0.jpg"/></button></td>
+            <td><button class="btn2"id="="><img src="assets/images/icons/5.jpg"/></button></td>
+            <td><button class="btn1"id="/"><img src="assets/images/icons/4.jpg"/></button></td>
+        </tr>
+    </table> 
+      </div>
+    </div>
+ 
+</html>

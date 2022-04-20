@@ -1,0 +1,174 @@
+html {
+height: 100%;
+}
+
+/* Задний фон + Шрифт */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    
+    background: url(../images/bg.jpg);
+    background-size: cover;  
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Блок */
+.row {
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 40px #308f88;
+}
+
+/* Intro + text */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+
+
+.header__logo {
+    font-size: 70px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 10px 2px 20px #3ca9e9;
+}
+
+/* button */
+
+.btn {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+}
+
+.btn1 {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+}
+
+.btn2 {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+}
+
+.btn3 {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+}
+
+.btn:hover {
+    opacity: 30%;
+}
+.btn1:hover {
+    opacity: 30%;
+}
+.btn2:hover {
+    opacity: 30%;
+}
+.btn3:hover {
+    opacity: 30%;
+}
+
+/* Поле Вывода */
+
+.input__text {
+    font-size: 35px;
+    background-color: #ffffff;
+    color: #00162c;
+    display: inline-block;
+    pointer-events: none;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+    text-align: right; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
