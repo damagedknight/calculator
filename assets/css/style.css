@@ -1,0 +1,254 @@
+html {
+height: 100%;
+scroll-behavior: smooth;
+}
+
+/* Задний фон + Шрифт */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    background: url(../images/bg.jpg);
+    background-size: cover;  
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.intro__title {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+    display: inline;
+}
+
+.intro__title:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 60px auto;
+    
+    background-color: #fff;
+}
+
+.inrto__suptitle {
+    margin-bottom: 20px;
+    font-size: 72px;
+    color: #fff;
+}
+
+.intro__iner {
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+    text-align: inherit;
+}
+
+
+.btns {
+    display: flex;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 3px solid #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700 ;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 400px;
+    position: absolute; 
+    left: 50%;
+    margin-left: -200px;
+} 
+
+.btns:hover {
+    background-color: #fff;
+    color: #333;
+    background-position: 100% 0;
+}
+
+
+/* Блок */
+.row {
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 40px #308f88;
+    height: 100%; 
+    touch-action: pan-x pan-y;
+}
+
+/* Intro + text */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    touch-action: pan-x pan-y;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    touch-action: pan-x pan-y;
+}
+
+
+.header__logo {
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 10px 2px 20px #3ca9e9;
+    touch-action: pan-x pan-y;
+}
+
+/* button */
+
+.btn {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+    touch-action: pan-x pan-y;
+}
+
+.btn1 {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+    touch-action: pan-x pan-y;
+}
+
+.btn2 {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+    touch-action: pan-x pan-y;
+}
+
+.btn3 {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    transition: background .1s linear,
+    color .1s linear;
+    width: 100px;
+    transition: opacity .2s;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+    touch-action: pan-x pan-y;
+}
+
+.btn:hover {
+    opacity: 30%;
+}
+.btn1:hover {
+    opacity: 30%;
+}
+.btn2:hover {
+    opacity: 30%;
+}
+.btn3:hover {
+    opacity: 30%;
+}
+
+/* Поле Вывода */
+
+.input__text {
+    font-size: 35px;
+    background-color: #ffffff;
+    color: #00162c;
+    display: inline-block;
+    pointer-events: none;
+    outline: none;
+    border: none;
+    border: solid 1px #ffffff;
+    text-align: right; 
+    touch-action: pan-x pan-y;
+}
+
+
+.footer {
+    padding: 40px;
+    background-color: black;
+    opacity: 80%;
+}
+
+.footertext {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
